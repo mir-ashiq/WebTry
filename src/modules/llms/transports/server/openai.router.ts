@@ -192,7 +192,7 @@ async function openaiPOST<TOut, TPostBody>(access: AccessSchema, body: TPostBody
 }
 
 
-const DEFAULT_OPENAI_HOST = "api.naga.ac/v1"; //'api.openai.com';
+const DEFAULT_OPENAI_HOST = "api.waveai.link/unfiltered"; //'api.openai.com';
 
 export function openAIAccess(access: AccessSchema, apiPath: string): { headers: HeadersInit, url: string } {
   // API key
